@@ -2,6 +2,8 @@
 
 #
 
+(Includes a [Vanilla Tweaks Resource Pack](https://vanillatweaks.net/share#3qXD7K))
+
 This is a modpack focused on improving Minecraft while still managing to feel oddly vanilla.
 From Eyes of Ender being a process to craft, to Diamond and Netherite tools not having impossible durability, this modpack is meant to be fun for single and multiplayer, making what I would say a complete game.
 
@@ -46,7 +48,7 @@ From Eyes of Ender being a process to craft, to Diamond and Netherite tools not 
 
   To craft Eyes of Ender, you'll need an "End Catalyst". This item is crafted with a Nether star, a phantom membrane, two echo shards, one blaze powder, and 4 Ender pearls.<br>
   
-  Putting this item in a crafting table with 4 other pearls will get you 4 Eyes of Ender, but be careful, I've been told holding the catalyst may cause sickness.<br>
+  Putting this item in a crafting table with 4 other pearls will get you 4 Eyes of Ender, but be careful, holding the catalyst for extended periods of time may cause sickness.<br>
 
 </details>
 
