@@ -64,8 +64,13 @@ jobs:
           name: latest-files
           path: ./
 
-      - name: Extract artifact
-        run: 7z x ./latest-files.zip
+      - name: Extract contents from artifact
+        uses: montudor/action-zip@v1
+        with:
+          args: unzip -qq ./latest-files.zip -d ./versions/latest
+
+      - name: Remove artifact
+        run: del ./latest-files.zip
 
         # Documentation: https://github.com/peaceiris/actions-gh-pages
       - name: Deploy to GitHub Pages
