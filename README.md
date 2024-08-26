@@ -1,9 +1,3 @@
-> _You can get the any version of the pack by visiting a link like so:_
-> 
-> `https://kckarnige.github.io/iatj/versions/MODPACK_VERSION/modpack_file.mrpack`
-> 
-> `https://kckarnige.github.io/iatj/versions/latest/modpack_file.mrpack`
-
 ![It's about the journey. (Modpack title)](https://kckarnige.github.io/res/iatj-stuff/modpack_title_4k.png)
 
 #
@@ -68,3 +62,13 @@ From Eyes of Ender being a process to craft, to Diamond and Netherite tools not 
   Just make sure you don't have any ominious potions before the fight, it could get hectic.<br>
 
 </details>
+
+#
+
+You can get the any version of the pack by visiting a link like so:
+
+`https://kckarnige.github.io/iatj/versions/MODPACK_VERSION/modpack_file.mrpack`
+
+`https://kckarnige.github.io/iatj/versions/latest/modpack_file.mrpack`
+
+> You will need a launcher like the Modrinth app or ATLauncher that supports this file type 
