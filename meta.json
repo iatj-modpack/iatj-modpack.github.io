@@ -34,6 +34,17 @@
           "generic": "https://kckarnige.github.io/projects"
         }
       }
+    },
+    {
+      "id": "1.2.1",
+      "releasedAt": 1724634949777,
+      "updateType": "minor",
+      "promotions": {
+        "downloads": {
+          "modrinth": "https://modrinth.com/modpack/iatj",
+          "generic": "https://kckarnige.github.io/projects"
+        }
+      }
     }
   ]
 }
