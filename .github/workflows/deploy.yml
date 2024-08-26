@@ -42,8 +42,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: gh-pages
-          path: ./
+          name: latest-files
+          path: ./versions/latest
 
   deploy:
     needs: building
@@ -60,11 +60,11 @@ jobs:
 
       - uses: actions/download-artifact@v4
         with:
-          name: gh-pages.zip
-          path: ./
+          name: latest-files
+          path: ./versions/latest
 
       - name: Extract artifact
-        run: 7z x gh-pages.zip && del gh-pages.zip 
+        run: 7z x latest-files.zip && del ./versions/latest/latest-files.zip 
 
         # Documentation: https://github.com/peaceiris/actions-gh-pages
       - name: Deploy to GitHub Pages
