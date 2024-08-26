@@ -16,13 +16,12 @@ permissions:
   id-token: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete. (No we don't)
 concurrency:
   group: "pages"
   cancel-in-progress: true
 
 jobs:
-  # Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
@@ -38,6 +37,7 @@ jobs:
       - name: Set "latest" directory to latest version
         uses: Amadevus/pwsh-script@v2
         with:
+          # (https://superuser.com/questions/1508591/how-to-copy-an-item-which-is-in-the-newest-folder-in-one-directory-to-another)
           script: |
             $newestfolder = gci -Directory ./versions | sort CreationTime -desc | select -f 1
             copy -recurse $newestfolder ./versions/latest
