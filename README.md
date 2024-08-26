@@ -1,3 +1,6 @@
+> You can get the any version of the pack by visiting a link like so
+`https://kckarnige.github.io/iatj/versions/MODPACK_VERSION/modpack_file.mrpack`
+
 ![It's about the journey. (Modpack title)](https://kckarnige.github.io/res/iatj-stuff/modpack_title_4k.png)
 
 #
