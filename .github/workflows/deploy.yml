@@ -34,9 +34,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Set "latest" directory to latest version
-        run: |
-        $newestfolder = gci -Directory ./versions | sort CreationTime -desc | select -f 1  ## get the newest folder
-        copy -recurse $newestfolder ./versions/latest
+        run: copy -recurse gci -Directory ./versions | sort CreationTime -desc | select -f 1 ./versions/latest
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
