@@ -42,8 +42,16 @@ jobs:
             $newestfolder = gci -Directory $sourcefolder | sort CreationTime -desc | select -f 1
             copy -recurse $newestfolder ./versions/latest
 
+        # Documentation: https://github.com/peaceiris/actions-gh-pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
             publish_dir: ./
+            # Makes it so the md files in the previous step get processed by GitHub Pages
+            enable_jekyll: false
+                  # https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site
+                  # This creates the CNAME file required to host github pages on a custom domain
+                  # Remove this to use default [username].github.io domain
+                  # Reminder: using a free domain service like freenom *can* result in your users getting hacked
+                  #cname: kckarnige.is-a.dev
