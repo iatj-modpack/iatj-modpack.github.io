@@ -36,7 +36,7 @@ jobs:
         uses: Amadevus/pwsh-script@v2
         with:
           script: |
-            $newestfolder = gci -Directory $sourcefolder | sort CreationTime -desc | select -f 1
+            $newestfolder = gci -Directory ./versions | sort CreationTime -desc | select -f 1
             copy -recurse $newestfolder ./versions/latest
 
       - name: Upload artifact
@@ -61,10 +61,10 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: latest-files
-          path: ./versions/latest
+          path: ./
 
       - name: Extract artifact
-        run: 7z x ./versions/latest/latest-files.zip && del ./versions/latest/latest-files.zip 
+        run: 7z x ./latest-files.zip && del ./latest-files.zip 
 
         # Documentation: https://github.com/peaceiris/actions-gh-pages
       - name: Deploy to GitHub Pages
