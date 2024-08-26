@@ -64,7 +64,7 @@ jobs:
           path: ./
 
       - name: Extract artifact
-        run: 7z x ./latest-files.zip && del ./latest-files.zip 
+        run: 7z x ./latest-files.zip
 
         # Documentation: https://github.com/peaceiris/actions-gh-pages
       - name: Deploy to GitHub Pages
