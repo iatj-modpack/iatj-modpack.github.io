@@ -31,9 +31,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Set "latest" directory to latest version
+        uses: Amadevus/pwsh-script@v2
         run: copy -recurse gci -Directory ./versions | sort CreationTime -desc | select -f 1 ./versions/latest
 
       - name: Upload artifact
