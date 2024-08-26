@@ -34,7 +34,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Set "latest" directory to latest version
-        run: ln -sf "$(ls -1dt versions/*/ | sed 1q)" versions/latest
+        run: cp -p "`ls -dtr1 "./versions"/* | tail -1`" "./versions/latest"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
