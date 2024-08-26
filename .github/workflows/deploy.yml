@@ -38,7 +38,9 @@ jobs:
       - name: Set "latest" directory to latest version
         uses: Amadevus/pwsh-script@v2
         with:
-          script: copy -recurse gci -Directory ./versions | sort CreationTime -desc | select -f 1 ./versions/latest 
+          script: |
+            $newestfolder = gci -Directory $sourcefolder | sort CreationTime -desc | select -f 1
+            copy -recurse $newestfolder ./versions/latest 
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
