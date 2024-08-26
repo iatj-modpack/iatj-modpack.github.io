@@ -19,39 +19,15 @@ permissions:
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   # Single deploy job since we're just deploying
-  building:
+  deploy:
     environment:
-      name: glue
+      name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: windows-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set "latest" directory to latest version
-        uses: Amadevus/pwsh-script@v2
-        with:
-          # https://superuser.com/questions/1508591/how-to-copy-an-item-which-is-in-the-newest-folder-in-one-directory-to-another
-          script: |
-            $newestfolder = gci -Directory ./versions | sort CreationTime -desc | select -f 1
-            copy -recurse $newestfolder ./versions/latest
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: latest-files
-          path: ./versions/latest
-
-  deploy:
-    needs: building
-    environment:
-      name: paper
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -59,10 +35,12 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - uses: actions/download-artifact@v4
+      - name: Set "latest" directory to latest version
+        uses: Amadevus/pwsh-script@v2
         with:
-          name: latest-files
-          path: ./
+          script: |
+            $newestfolder = gci -Directory ./versions | sort CreationTime -desc | select -f 1
+            copy -recurse $newestfolder ./versions/latest
 
         # Documentation: https://github.com/peaceiris/actions-gh-pages
       - name: Deploy to GitHub Pages
