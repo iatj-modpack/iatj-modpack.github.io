@@ -25,7 +25,7 @@ jobs:
   # Single deploy job since we're just deploying
   building:
     environment:
-      name: github-pages
+      name: glue
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: windows-latest
     steps:
@@ -35,6 +35,7 @@ jobs:
       - name: Set "latest" directory to latest version
         uses: Amadevus/pwsh-script@v2
         with:
+          # https://superuser.com/questions/1508591/how-to-copy-an-item-which-is-in-the-newest-folder-in-one-directory-to-another
           script: |
             $newestfolder = gci -Directory ./versions | sort CreationTime -desc | select -f 1
             copy -recurse $newestfolder ./versions/latest
@@ -48,7 +49,7 @@ jobs:
   deploy:
     needs: building
     environment:
-      name: github-pages
+      name: paper
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
