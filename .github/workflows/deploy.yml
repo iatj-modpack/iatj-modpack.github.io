@@ -42,9 +42,11 @@ jobs:
             $newestfolder = gci -Directory ./versions | sort CreationTime -desc | select -f 1
             copy -recurse $newestfolder ./versions/latest
 
-        # Documentation: https://github.com/peaceiris/actions-gh-pages
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-            publish_dir: ./
+          # Upload entire repository
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
