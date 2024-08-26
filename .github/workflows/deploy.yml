@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Add "latest" as a usable version in URL
+name: Setup for web
 
 on:
   # Runs on pushes targeting the default branch
@@ -40,7 +40,9 @@ jobs:
           # (https://superuser.com/questions/1508591/how-to-copy-an-item-which-is-in-the-newest-folder-in-one-directory-to-another)
           script: |
             $newestfolder = gci -Directory ./versions | sort CreationTime -desc | select -f 1
-            copy -recurse $newestfolder ./versions/latest
+            copy $newestfolder ./versions/latest -Recurse
+            copy ./web-files/** ./ -Recurse
+            del ./web-files -Recurse -Force
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
