@@ -1,7 +1,7 @@
-Removed [Dungeons and Taverns](https://modrinth.com/datapack/dungeons-and-taverns) in favor of just it's [strongholds](https://modrinth.com/mod/dungeons-and-taverns-stronghold-overhaul), [desert temples](https://modrinth.com/mod/dungeons-and-taverns-desert-temple-replacement), and [jungle temples](https://modrinth.com/datapack/dungeons-and-taverns-jungle-temple-replacement)
+- Removed [Dungeons and Taverns](https://modrinth.com/datapack/dungeons-and-taverns) in favor of just it's [strongholds](https://modrinth.com/mod/dungeons-and-taverns-stronghold-overhaul), [desert temples](https://modrinth.com/mod/dungeons-and-taverns-desert-temple-replacement), and [jungle temples](https://modrinth.com/datapack/dungeons-and-taverns-jungle-temple-replacement)
 
-Added [NoFun DnT](https://modrinth.com/datapack/nofun-dnt)
+- Added [NoFun DnT](https://modrinth.com/datapack/nofun-dnt)
 
-Added [Block Breaker & Block Placer](https://modrinth.com/mod/breakerplacer)
+- Added [Block Breaker & Block Placer](https://modrinth.com/mod/breakerplacer)
 
-Increased default "Master Volume" setting to 50% from 25%
+- Increased default "Master Volume" setting to 50% from 25%

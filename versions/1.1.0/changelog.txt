@@ -1,5 +1,5 @@
-Removed "[Useless Reptile](https://modrinth.com/mod/useless-reptile)" mod
+- Removed "[Useless Reptile](https://modrinth.com/mod/useless-reptile)" mod
 
-Added "[Early Loading Screen](https://modrinth.com/mod/early-loading-screen)" mod
+- Added "[Early Loading Screen](https://modrinth.com/mod/early-loading-screen)" mod
 
-Had to reupload to Modrinth multiple times due to technical issues
+- Had to reupload to Modrinth multiple times due to technical issues
