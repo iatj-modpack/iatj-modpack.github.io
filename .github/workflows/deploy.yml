@@ -23,7 +23,7 @@ concurrency:
 
 jobs:
   # Single deploy job since we're just deploying
-  deploy:
+  building:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -32,15 +32,39 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
       - name: Set "latest" directory to latest version
         uses: Amadevus/pwsh-script@v2
         with:
           script: |
             $newestfolder = gci -Directory $sourcefolder | sort CreationTime -desc | select -f 1
             copy -recurse $newestfolder ./versions/latest
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gh-pages.zip
+          path: ./
+
+  deploy:
+    needs: building
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: gh-pages.zip
+          path: ./
+
+      - name: Extract artifact
+        run: 7z x gh-pages.zip && del gh-pages.zip 
 
         # Documentation: https://github.com/peaceiris/actions-gh-pages
       - name: Deploy to GitHub Pages
