@@ -1,4 +1,4 @@
-![It's about the journey. (Modpack title)](https://kckarnige.github.io/res/iatj-stuff/modpack_title_4k.png)
+![It's about the journey. (Modpack title)](https://kckarnige.github.io/iatj/res/modpack_title_4k.png)
 
 #
 
