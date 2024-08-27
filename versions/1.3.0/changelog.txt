@@ -1,0 +1,5 @@
+- Removed [Daylight Mobs Reborn](https://modrinth.com/mod/daylight-mobs-reborn)
+
+- Removed [Item Borders](https://modrinth.com/mod/item-borders)
+
+- Removed [Revamped Phantoms](https://modrinth.com/mod/revamped_phantoms)
