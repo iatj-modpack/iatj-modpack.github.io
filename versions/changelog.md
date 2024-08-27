@@ -1,4 +1,4 @@
-### 1.3.0
+### 1.3.0 - The "Slightly Less Annoying" Update
 
 - Removed [Daylight Mobs Reborn](https://modrinth.com/mod/daylight-mobs-reborn)
 
