@@ -2,7 +2,7 @@
 
 - Replaced "[Rotten to Leather](https://modrinth.com/mod/rotten-to-leather/version/1)" with "[Rotten Flesh Leather](https://modrinth.com/datapack/rotten-flesh-leather)", the former is incompatible with 1.21
 
-- Made the modpack info page much more readable
+- Made the modpack info page slightly more readable
 
 ----
 ### 1.3.0 - The "Slightly Less Annoying" Update
