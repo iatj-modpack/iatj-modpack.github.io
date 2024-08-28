@@ -4,6 +4,8 @@
 
 - Made the modpack info page slightly more readable
 
+- Removed Herobrine
+
 ----
 ### 1.3.0 - The "Slightly Less Annoying" Update
 
