@@ -1,3 +1,10 @@
+### 1.3.1
+
+- Replaced "[Rotten to Leather](https://modrinth.com/mod/rotten-to-leather/version/1)" with "[Rotten Flesh Leather](https://modrinth.com/datapack/rotten-flesh-leather)", the former is incompatible with 1.21
+
+- Made the modpack info page much more readable
+
+----
 ### 1.3.0 - The "Slightly Less Annoying" Update
 
 - Removed [Daylight Mobs Reborn](https://modrinth.com/mod/daylight-mobs-reborn)
@@ -20,7 +27,7 @@
 
 - Added [Block Breaker & Block Placer](https://modrinth.com/mod/breakerplacer)
 
-Increased default "Master Volume" setting to 50% from 25%
+- Increased default "Master Volume" setting to 50% from 25%
 
 ----
 ### 1.1.0.1

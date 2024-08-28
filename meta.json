@@ -56,6 +56,17 @@
           "generic": "https://kckarnige.github.io/iatj"
         }
       }
+    },
+    {
+      "id": "1.3.1",
+      "releasedAt": 1724860498381,
+      "updateType": "minor",
+      "promotions": {
+        "downloads": {
+          "modrinth": "https://modrinth.com/modpack/iatj",
+          "generic": "https://kckarnige.github.io/iatj"
+        }
+      }
     }
   ]
 }
