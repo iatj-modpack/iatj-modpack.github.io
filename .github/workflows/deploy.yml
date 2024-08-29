@@ -42,7 +42,7 @@ jobs:
             $newestfolder = gci -Directory ./versions | sort CreationTime -desc | select -f 1
             $newestfoldername = gci -Directory ./versions | sort CreationTime -desc | select -f 1 | Select-Object -ExpandProperty Name
             mkdir './versions/latest'
-            Get-ChildItem $newestfoldername | Out-file -FilePath './versions/latest/vnum.txt'
+            $newestfoldername | Out-file -FilePath './versions/latest/vnum.txt'
             copy $newestfolder ./versions/latest -Recurse
             copy ./web-files/** ./ -Recurse
             del ./web-files -Recurse -Force
