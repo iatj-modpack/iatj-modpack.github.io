@@ -23,14 +23,6 @@
             backdrop-filter: blur(5px) brightness(0.8);
         }
     </style>
-    <script>
-        fetch(location.href + 'versions/latest/vnum.txt')
-            .then(response => response.text())
-            .then((data) => {
-                document.getElementById("mpDL").setAttribute("download",data+"iatj_modpack_file.mrpack")
-                console.log(data)
-            })
-    </script>
 </head>
 
 <body>
