@@ -39,8 +39,10 @@ jobs:
         with:
           # (https://superuser.com/questions/1508591/how-to-copy-an-item-which-is-in-the-newest-folder-in-one-directory-to-another)
           script: |
-            gci -Directory ./versions | sort CreationTime -desc | select -f 1 | Select-Object -ExpandProperty Name | Out-file -FilePath './versions/latest/vnum.txt'
             $newestfolder = gci -Directory ./versions | sort CreationTime -desc | select -f 1
+            $newestfoldername = gci -Directory ./versions | sort CreationTime -desc | select -f 1 | Select-Object -ExpandProperty Name
+            mkdir './versions/latest'
+            Get-ChildItem $newestfoldername | Out-file -FilePath './versions/latest/vnum.txt'
             copy $newestfolder ./versions/latest -Recurse
             copy ./web-files/** ./ -Recurse
             del ./web-files -Recurse -Force
