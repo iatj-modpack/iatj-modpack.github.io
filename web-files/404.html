@@ -19,10 +19,10 @@
                 console.log("Fetched!")
                 var vList = response.versions;
                 for (var i = 0; i < vList.length; i++) {
-                    if (i == vList.length && document.location.pathname == "/dl/latest") {
+                    if (document.location.pathname == "/dl/" + vList[i].id) {
                         console.log(vList[i].id)
-                            .then(document.location = vList[i].mpfile)
-                    } else if (document.location.pathname == "/dl/" + vList[i].id) {
+                        document.location = vList[i].mpfile
+                    } else if (i == vList.length && document.location.pathname == "/dl/latest") {
                         console.log(vList[i].id)
                         document.location = vList[i].mpfile
                     } else if (i == vList.length && document.location.pathname == "/dl/0.0.0") {
