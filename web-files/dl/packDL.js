@@ -9,11 +9,12 @@ fetch("https://iatj-modpack.github.io/meta.json", {
     .then((response) => {
         console.log("Fetched!")
         var vList = response;
+        var latestVersionJson = vList.versions[vList.versions.length].mpfile;
         if (document.location.pathname == "/dl/0.0.0") {
             document.location = "https://iatj-modpack.github.io/versions/0.0.0/iatj_modpack_file_0.0.0.mrpack"
         }
         else if (document.location.pathname == "/dl/latest") {
-            document.location = vList.versions[vList.versions.length].mpfile
+            document.location = latestVersionJson.mpfile
         }
         else {
             for (var i = 0; i < vList.versions.length; i++) {
