@@ -20,12 +20,12 @@
                 var vList = response;
                 var latestV = vList.versions.length;
                 for (var i = 0; i < vList.versions.length; i++) {
-                    if (document.location.pathname == vList.versions[i].id) {
+                    if (document.location.pathname == "/dl/"+vList.versions[i].id) {
                         console.log(vList.versions[i].id)
                         document.location = vList.versions[i].mpfile
-                    } else if (i == 0 && document.location.pathname == "https://iatj-modpack.github.io/dl/latest") {
+                    } else if (i == 0 && document.location.pathname == "/dl/latest") {
                         document.location = `https://iatj-modpack.github.io/versions/${vList.versions[latestV].id}/iatj_modpack_file_${vList.versions[latestV].id}.mrpack`
-                    } else if (i == 0 && document.location.pathname == "/iatj/dl/0.0.0") {
+                    } else if (i == 0 && document.location.pathname == "/dl/0.0.0") {
                         document.location = "https://iatj-modpack.github.io/versions/0.0.0/iatj_modpack_file_0.0.0.mrpack"
                     } else if (i == latestV) {
                         document.location = "https://iatj-modpack.github.io"
