@@ -17,14 +17,12 @@ fetch("https://iatj-modpack.github.io/meta.json", {
                 document.location = vList.versions[i].mpfile
             }
         }
-        window.onload = () => {
-            if (document.location.pathname == "/dl/0.0.0") {
-                document.location = "https://iatj-modpack.github.io/versions/0.0.0/iatj_modpack_file_0.0.0.mrpack"
-            }
-            else if (document.location.pathname == "/dl/latest") {
-                console.log(vList.versions[vListSize])
-                document.location = vList.versions[vListSize].mpfile;
-            }
+        if (document.location.pathname == "/dl/0.0.0") {
+            document.location = "https://iatj-modpack.github.io/versions/0.0.0/iatj_modpack_file_0.0.0.mrpack"
+        }
+        else if (document.location.pathname == "/dl/latest") {
+            console.log(vList.versions[vListSize])
+            document.location = vList.versions[vListSize].mpfile;
         }
     })
 
