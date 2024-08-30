@@ -21,8 +21,12 @@ fetch("https://iatj-modpack.github.io/meta.json", {
             document.location = "https://iatj-modpack.github.io/versions/0.0.0/iatj_modpack_file_0.0.0.mrpack"
         }
         if (document.location.pathname == "/dl/latest") {
-            console.log(vList.versions[vListSize])
-            document.location = vList.versions[vListSize].mpfile;
+            async function YES() {
+                console.log(vList.versions[vListSize])
+                var latestMPFile = await vList.versions[vListSize].mpfile;
+                document.location = latestMPFile;
+            }
+            YES()
         }
     })
 
