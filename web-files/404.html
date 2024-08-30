@@ -18,7 +18,7 @@
             .then((response) => {
                 console.log("Fetched!")
                 var vList = response.versions;
-                var vCurrent= response.versions.length;
+                var vCurrent= response.versions.length+"";
                 console.log(vCurrent);
                 if (document.location.pathname == "/dl/latest") {
                     console.log(vList[vCurrent].id)
