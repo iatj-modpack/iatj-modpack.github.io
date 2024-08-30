@@ -18,17 +18,16 @@
             .then((response) => {
                 console.log("Fetched!")
                 var vList = response;
-                var latestV = vList.versions.length;
                 for (var i = 0; i < vList.versions.length; i++) {
                     if (document.location.pathname == "/dl/"+vList.versions[i].id) {
                         console.log(vList.versions[i].id)
                         document.location = vList.versions[i].mpfile
                     } else if (i == 0 && document.location.pathname == "/dl/latest") {
-                        console.log(vList.versions[latestV].id)
-                        document.location = vList.versions[latestV].mpfile
+                        console.log(vList.versions[vList.versions.length].id)
+                        document.location = vList.versions[vList.versions.length].mpfile
                     } else if (i == 0 && document.location.pathname == "/dl/0.0.0") {
                         document.location = "https://iatj-modpack.github.io/versions/0.0.0/iatj_modpack_file_0.0.0.mrpack"
-                    } else if (i == latestV) {
+                    } else if (i == vList.versions.length) {
                         document.location = "https://iatj-modpack.github.io"
                     }
                 }
