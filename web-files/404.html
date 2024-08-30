@@ -17,20 +17,20 @@
             .then((response) => response.json())
             .then((response) => {
                 console.log("Fetched!")
-                var vList = response;
+                var vList = response.versions;
                 var vCurrent= response.versions.length;
                 console.log(vCurrent);
                 if (document.location.pathname == "/dl/latest") {
-                    console.log(response.versions[response.versions.length].id)
-                    document.location = response.versions[response.versions.length].mpfile
+                    console.log(response.versions[vCurrent].id)
+                    document.location = response.versions[vCurrent].mpfile
                 } else {
-                    for (var i = 0; i < vList.versions.length; i++) {
-                        if (document.location.pathname == "/dl/" + vList.versions[i].id) {
-                            console.log(vList.versions[i].id)
-                            document.location = vList.versions[i].mpfile
+                    for (var i = 0; i < vList.length; i++) {
+                        if (document.location.pathname == "/dl/" + vList[i].id) {
+                            console.log(vList[i].id)
+                            document.location = vList[i].mpfile
                         } else if (i == 0 && document.location.pathname == "/dl/0.0.0") {
                             document.location = "https://iatj-modpack.github.io/versions/0.0.0/iatj_modpack_file_0.0.0.mrpack"
-                        } else if (i == vList.versions.length) {
+                        } else if (i == vList.length) {
                             document.location = "https://iatj-modpack.github.io"
                         }
                     }
