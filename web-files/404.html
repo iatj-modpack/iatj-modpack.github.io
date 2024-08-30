@@ -24,6 +24,7 @@
                         console.log(vList.versions[i].id)
                         document.location = vList.versions[i].mpfile
                     } else if (i == 0 && document.location.pathname == "/dl/latest") {
+                        console.log(vList.versions[latestV].id)
                         document.location = `https://iatj-modpack.github.io/versions/${vList.versions[latestV].id}/iatj_modpack_file_${vList.versions[latestV].id}.mrpack`
                     } else if (i == 0 && document.location.pathname == "/dl/0.0.0") {
                         document.location = "https://iatj-modpack.github.io/versions/0.0.0/iatj_modpack_file_0.0.0.mrpack"
