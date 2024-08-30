@@ -1,3 +1,12 @@
+### 1.3.2
+
+- Updated modpack updater to check new url
+
+- Removed [SimplyStatus](https://modrinth.com/mod/simplystatus)
+
+- Removed Herobrine
+
+----
 ### 1.3.1
 
 - Replaced "[Rotten to Leather](https://modrinth.com/mod/rotten-to-leather/version/1)" with "[Rotten Flesh Leather](https://modrinth.com/datapack/rotten-flesh-leather)", the former is incompatible with 1.21

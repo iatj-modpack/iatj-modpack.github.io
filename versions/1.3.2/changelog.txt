@@ -1,0 +1,5 @@
+- Updated modpack updater to check new url
+
+- Removed [SimplyStatus](https://modrinth.com/mod/simplystatus)
+
+- Removed Herobrine
