@@ -1,4 +1,4 @@
-![It's about the journey. (Modpack title)](https://kckarnige.github.io/iatj/res/modpack_title_4k.png)
+![It's about the journey. (Modpack title)](https://iatj-modpack.github.io/res/modpack_title_4k.png)
 
 #
 
@@ -68,8 +68,8 @@ From Eyes of Ender being a process to craft, to Diamond and Netherite tools not 
 > [!NOTE]
 > You can get the any version of the pack by visiting a link like so:
 > 
-> `https://kckarnige.github.io/iatj/versions/MODPACK_VERSION/iatj_modpack_file.mrpack`
+> `https://iatj-modpack.github.io/versions/MODPACK_VERSION/iatj_modpack_file.mrpack`
 > 
-> `https://kckarnige.github.io/iatj/versions/latest/iatj_modpack_file.mrpack`
+> `https://iatj-modpack.github.io/versions/latest/iatj_modpack_file.mrpack`
 > 
 > You will need a launcher like the Modrinth app or ATLauncher that supports this file type
