@@ -18,21 +18,19 @@
             .then((response) => {
                 console.log("Fetched!")
                 var vList = response.versions;
-                var vCurrent= response.versions.length+"";
+                var vCurrent = response.versions.length + "";
                 console.log(vCurrent);
-                if (document.location.pathname == "/dl/latest") {
-                    console.log(vList[vCurrent].id)
-                    .then(document.location = vList[vCurrent].mpfile)
-                } else {
-                    for (var i = 0; i < vList.length; i++) {
-                        if (document.location.pathname == "/dl/" + vList[i].id) {
-                            console.log(vList[i].id)
-                            document.location = vList[i].mpfile
-                        } else if (i == 0 && document.location.pathname == "/dl/0.0.0") {
-                            document.location = "https://iatj-modpack.github.io/versions/0.0.0/iatj_modpack_file_0.0.0.mrpack"
-                        } else if (i == vList.length) {
-                            document.location = "https://iatj-modpack.github.io"
-                        }
+                for (var i = 0; i < vList.length; i++) {
+                    if (document.location.pathname == "/dl/latest") {
+                        console.log(vList[vCurrent].id)
+                            .then(document.location = vList[vCurrent].mpfile)
+                    } else if (document.location.pathname == "/dl/" + vList[i].id) {
+                        console.log(vList[i].id)
+                        document.location = vList[i].mpfile
+                    } else if (i == 0 && document.location.pathname == "/dl/0.0.0") {
+                        document.location = "https://iatj-modpack.github.io/versions/0.0.0/iatj_modpack_file_0.0.0.mrpack"
+                    } else if (i == vList.length) {
+                        document.location = "https://iatj-modpack.github.io"
                     }
                 }
             })
