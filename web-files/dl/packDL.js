@@ -1,5 +1,4 @@
 let vList;
-let latestVersionJson;
 fetch("https://iatj-modpack.github.io/meta.json", {
     method: "GET",
     headers: {
@@ -10,12 +9,11 @@ fetch("https://iatj-modpack.github.io/meta.json", {
     .then((response) => {
         console.log("Fetched!")
         vList = response;
-        latestVersionJson = vList.versions[vList.versions.length].mpfile;
         if (document.location.pathname == "/dl/0.0.0") {
             document.location = "https://iatj-modpack.github.io/versions/0.0.0/iatj_modpack_file_0.0.0.mrpack"
         }
         else if (document.location.pathname == "/dl/latest") {
-            document.location = latestVersionJson.mpfile
+            document.location = vList.versions[vList.versions.length].mpfile;
         }
         else {
             for (var i = 0; i < vList.versions.length; i++) {
