@@ -16,6 +16,7 @@
         })
             .then((response) => response.json())
             .then((response) => {
+                console.log("Fetched!")
                 var vList = response;
                 var latestV = vList.versions.length;
                 for (var currentV = 0; currentV < latestV; currentV++) {
