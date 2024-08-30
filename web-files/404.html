@@ -21,8 +21,8 @@
                 var vCurrent= response.versions.length;
                 console.log(vCurrent);
                 if (document.location.pathname == "/dl/latest") {
-                    console.log(response.versions[vCurrent].id)
-                    document.location = response.versions[vCurrent].mpfile
+                    console.log(vList[vCurrent].id)
+                    document.location = vList[vCurrent].mpfile
                 } else {
                     for (var i = 0; i < vList.length; i++) {
                         if (document.location.pathname == "/dl/" + vList[i].id) {
