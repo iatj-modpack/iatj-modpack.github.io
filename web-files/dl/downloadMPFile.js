@@ -13,7 +13,7 @@ fetch("/iatj/meta.json", {
                 console.log(vList.versions[i].id)
                 document.location = vList.versions[i].mpfile
             } else if (i == 0 && document.location.pathname == "/iatj/dl/latest") {
-                document.location = `https://kckarnige.github.io/iatj/versions/vList.versions[vList.versions.length].id/iatj_modpack_file_${vList.versions[vList.versions.length].id}.mrpack`
+                document.location = `https://kckarnige.github.io/iatj/versions/${vList.versions[vList.versions.length].id}/iatj_modpack_file_${vList.versions[vList.versions.length].id}.mrpack`
             } else if (i == 0 && document.location.pathname == "/iatj/dl/0.0.0") {
                 document.location = "https://kckarnige.github.io/iatj/versions/0.0.0/iatj_modpack_file_0.0.0.mrpack"
             } else {
