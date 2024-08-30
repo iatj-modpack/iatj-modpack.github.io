@@ -6,8 +6,8 @@ fetch("/iatj/meta.json", {
     },
 })
     .then((response) => response.json())
-    .then((response) => (vList = response))
-    .then(() => {
+    .then((response) => {
+        var vList = response;
         var latestV = vList.versions.length;
         for (var currentV = 0; currentV < latestV; currentV++) {
             if (document.location.pathname == vList.versions[currentV].id) {
