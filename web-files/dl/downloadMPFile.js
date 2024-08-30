@@ -17,7 +17,7 @@ fetch("/iatj/meta.json", {
             } else if (i == 0 && document.location.pathname == "/iatj/dl/0.0.0") {
                 document.location = "https://kckarnige.github.io/iatj/versions/0.0.0/iatj_modpack_file_0.0.0.mrpack"
             } else {
-                document.body.innerHTML = "<p>Version not found.</p>"
+                document.location = "https://kckarnige.github.io/iatj"
             }
         }
     })
