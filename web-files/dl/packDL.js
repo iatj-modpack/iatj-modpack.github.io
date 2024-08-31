@@ -34,5 +34,7 @@ fetch("https://iatj-modpack.github.io/meta.json", {
     })
 
     window.onload = () => {
-        document.location = "https://iatj-modpack.github.io"
+        setTimeout(() => {
+            document.location = "https://iatj-modpack.github.io"
+        }, 2000)
     }
