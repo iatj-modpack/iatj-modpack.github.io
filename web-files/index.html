@@ -23,14 +23,6 @@
             backdrop-filter: blur(5px) brightness(0.8);
         }
     </style>
-    <script>
-        fetch(location.href + 'versions/latest/vnum.txt')
-            .then(response => response.text())
-            .then((data) => {
-                document.getElementById("mpDL").setAttribute("download",`iatj_modpack_file_${data}.mrpack`)
-                console.log(data)
-            })
-    </script>
 </head>
 
 <body>
@@ -42,7 +34,7 @@
             </div>
             <p id="mpOps">
                 <a href="https://modrinth.com/modpack/iatj" target="_blank">Modrinth <img src="res/outgoing.png" pixelated="true" width="16" /></a>
-                <a id="mpDL" href="versions/latest/iatj_modpack_file.mrpack">Download</a>
+                <a href="https://iatj-modpack.github.io/dl/latest">Download</a>
                 <a href="changelog" target="_blank">Changelog <img src="res/outgoing.png" pixelated="true" width="16" /></a>
             </p>
         </div>

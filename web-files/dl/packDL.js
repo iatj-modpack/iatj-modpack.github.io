@@ -33,3 +33,6 @@ fetch("https://iatj-modpack.github.io/meta.json", {
         }
     })
 
+    window.onload = () => {
+        document.location = "https://iatj-modpack.github.io"
+    }
