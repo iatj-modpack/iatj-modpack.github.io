@@ -11,7 +11,7 @@ fetch("https://iatj-modpack.github.io/meta.json", {
         console.log("Fetched!")
         vList = response;
         vListSize = response.versions.length;
-        for (var i = 0; i < vList.versions.length; i++) {
+        for (var i = 0; i <= vList.versions.length; i++) {
             if (document.location.pathname == "/dl/" + vList.versions[i].id) {
                 console.log(vList.versions[i].id)
                 document.location = vList.versions[i].mpfile
