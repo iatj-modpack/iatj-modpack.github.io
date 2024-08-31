@@ -38,6 +38,11 @@ fetch("https://iatj-modpack.github.io/meta.json", {
     })
 
 window.onload = () => {
+    if (dlPage) {
+        document.title = "Getting download.."
+    } else {
+        document.title = "This page doesn't exist!"
+    }
     setTimeout(() => {
         if (dlPage) {
             if (history.back() != undefined) {
