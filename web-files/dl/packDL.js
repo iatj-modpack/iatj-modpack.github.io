@@ -14,16 +14,19 @@ fetch("https://iatj-modpack.github.io/meta.json", {
         for (var i = 0; i < vList.versions.length; i++) {
             if (document.location.pathname == "/dl/" + vList.versions[i].id) {
                 dlPage = true;
+                document.title = "Getting download..";
                 console.log(vList.versions[i].id)
                 document.location = vList.versions[i].mpfile
             }
         }
         if (document.location.pathname == "/dl/0.0.0") {
             dlPage = true;
+            document.title = "Getting download..";
             document.location = "https://iatj-modpack.github.io/versions/0.0.0/iatj_modpack_file_0.0.0.mrpack"
         }
         if (document.location.pathname == "/dl/latest") {
             dlPage = true;
+            document.title = "Getting download..";
             fetch("https://iatj-modpack.github.io/versions/latest/vnum.txt", {
                 method: "GET",
                 headers: {
@@ -38,11 +41,6 @@ fetch("https://iatj-modpack.github.io/meta.json", {
     })
 
 window.onload = () => {
-    if (dlPage) {
-        document.title = "Getting download.."
-    } else {
-        document.title = "This page doesn't exist!"
-    }
     setTimeout(() => {
         if (dlPage) {
             if (history.back() != undefined) {
