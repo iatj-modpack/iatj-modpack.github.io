@@ -34,6 +34,7 @@ fetch("https://iatj-modpack.github.io/meta.json", {
     })
 
     window.onload = () => {
+        document.body.innerText = "Please wait.."
         setTimeout(() => {
             document.location = "https://iatj-modpack.github.io"
         }, 2000)
