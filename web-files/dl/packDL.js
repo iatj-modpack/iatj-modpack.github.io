@@ -48,5 +48,5 @@ window.onload = () => {
         } else {
             document.location = "https://iatj-modpack.github.io"
         }
-    }, 2000)
+    }, 1000)
 }
