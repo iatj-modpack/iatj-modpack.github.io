@@ -28,7 +28,7 @@ fetch("https://iatj-modpack.github.io/meta.json", {
             })
                 .then((response) => response.text())
                 .then((response) => {
-                    document.location = "https://iatj-modpack.github.io/versions/latest/iatj_modpack_file_"+response+".mrpack"
+                    document.location = "https://iatj-modpack.github.io/versions/"+response+"/iatj_modpack_file_"+response+".mrpack"
                 })
         }
     })
