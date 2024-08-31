@@ -15,10 +15,11 @@ fetch("https://iatj-modpack.github.io/meta.json", {
             if (document.location.pathname == "/dl/" + vList.versions[i].id) {
                 console.log(vList.versions[i].id)
                 document.location = vList.versions[i].mpfile
-            }
-            if (document.location.pathname == "/dl/latest" && i == vList.versions.length) {
-                console.log(vList.versions[i].id)
-                document.location = vList.versions[i].mpfile
+            } else {
+                if (document.location.pathname == "/dl/latest" && i == vList.versions.length) {
+                    console.log(vList.versions[i].id)
+                    document.location = vList.versions[i].mpfile
+                }
             }
         }
         if (document.location.pathname == "/dl/0.0.0") {
