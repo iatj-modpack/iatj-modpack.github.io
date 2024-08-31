@@ -28,14 +28,17 @@ fetch("https://iatj-modpack.github.io/meta.json", {
             })
                 .then((response) => response.text())
                 .then((response) => {
-                    document.location = "https://iatj-modpack.github.io/versions/"+response+"/iatj_modpack_file_"+response+".mrpack"
+                    document.location = "https://iatj-modpack.github.io/versions/" + response + "/iatj_modpack_file_" + response + ".mrpack"
                 })
         }
     })
 
-    window.onload = () => {
-        document.body.innerText = "Please wait.."
-        setTimeout(() => {
-            document.location = "https://iatj-modpack.github.io"
-        }, 2000)
-    }
+window.onload = () => {
+    setTimeout(() => {
+        if (history.back() != undefined) {
+            history.back()
+        } else {
+            window.close()
+        }
+    }, 2000)
+}
