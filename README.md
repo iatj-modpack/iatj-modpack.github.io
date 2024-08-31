@@ -68,8 +68,8 @@ From Eyes of Ender being a process to craft, to Diamond and Netherite tools not 
 > [!NOTE]
 > You can get the any version of the pack by visiting a link like so:
 > 
-> `https://iatj-modpack.github.io/versions/MODPACK_VERSION/iatj_modpack_file.mrpack`
+> `https://iatj-modpack.github.io/dl/1.3.2`
 > 
-> `https://iatj-modpack.github.io/versions/latest/iatj_modpack_file.mrpack`
+> `https://iatj-modpack.github.io/dl/latest`
 > 
 > You will need a launcher like the Modrinth app or ATLauncher that supports this file type
