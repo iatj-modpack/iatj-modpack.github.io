@@ -5,7 +5,7 @@
 - Removed Herobrine
 
 ----
-### 1.3.4
+### 1.3.4 (Crashes)
 
 - Replaced [Early Loading Screen](https://modrinth.com/mod/early-loading-screen) with [Mod Loading Screen](https://modrinth.com/mod/mod-loading-screen)
 
@@ -14,7 +14,7 @@
 - Removed Herobrine
 
 ----
-### 1.3.3
+### 1.3.3 (Crashes)
 
 - Prevent [Scorchful](https://modrinth.com/mod/scorchful) and [Frostiful](https://modrinth.com/mod/frostiful) from updating configs
 
