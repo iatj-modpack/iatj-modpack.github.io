@@ -1,3 +1,20 @@
+### 1.3.3
+
+- Prevent [Scorchful](https://modrinth.com/mod/scorchful) and [Frostiful](https://modrinth.com/mod/frostiful) from updating configs
+
+- Disabled the sunhat's screen shading
+
+- Disabled speed boost when walking on grass path
+
+- Added the [Wooden Bucket](https://modrinth.com/mod/wooden-bucket) mod
+
+- Added the ability to shear "jeb_" sheep (Thanks to the [jeb_ Wool](https://modrinth.com/mod/jeb_-wool) mod)
+
+- Added the [Mo Glass](https://modrinth.com/mod/mo-glass) mod
+
+- Removed Herobrine
+
+----
 ### 1.3.2
 
 - Updated modpack updater to check new url
