@@ -1,3 +1,10 @@
+### 1.3.5
+
+- Removed [jeb_ Wool](https://modrinth.com/mod/jeb_-wool) mod due to crashing
+
+- Removed Herobrine
+
+----
 ### 1.3.4
 
 - Replaced [Early Loading Screen](https://modrinth.com/mod/early-loading-screen) with [Mod Loading Screen](https://modrinth.com/mod/mod-loading-screen)

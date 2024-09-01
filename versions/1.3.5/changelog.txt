@@ -1,0 +1,3 @@
+- Removed [jeb_ Wool](https://modrinth.com/mod/jeb_-wool) mod due to crashing
+
+- Removed Herobrine
