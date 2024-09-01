@@ -45,7 +45,7 @@ jobs:
             copy ./web-files/** ./ -Recurse
             del ./web-files -Recurse -Force
             $latestVNum = Get-Content ./versions/latest/vnum.txt
-            (Get-Content ./index.html).Replace('LATEST_PACK_VERSION', 'MyValue') | Set-Content ./index.html
+            (Get-Content ./index.html).Replace('LATEST_PACK_VERSION', $latestVNum) | Set-Content ./index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
