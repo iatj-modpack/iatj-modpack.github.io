@@ -42,6 +42,11 @@ fetch("https://iatj-modpack.github.io/meta.json", {
         }
     })
 
+    if (dlPage) {
+        document.getElementById("pageIco").setAttribute("href", "https://iatj-modpack.github.io/dlicon.ico");
+    } else {
+        document.getElementById("pageIco").setAttribute("href", "https://iatj-modpack.github.io/favicon.ico");
+    }
 window.onload = () => {
     setTimeout(() => {
         if (dlPage) {
