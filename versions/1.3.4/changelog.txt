@@ -1,0 +1,5 @@
+- Replaced [Early Loading Screen](https://modrinth.com/mod/early-loading-screen) with [Mod Loading Screen](https://modrinth.com/mod/mod-loading-screen)
+
+- Cleaned up some unused config files
+
+- Removed Herobrine

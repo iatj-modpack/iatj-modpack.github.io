@@ -1,3 +1,12 @@
+### 1.3.4
+
+- Replaced [Early Loading Screen](https://modrinth.com/mod/early-loading-screen) with [Mod Loading Screen](https://modrinth.com/mod/mod-loading-screen)
+
+- Cleaned up some unused config files
+
+- Removed Herobrine
+
+----
 ### 1.3.3
 
 - Prevent [Scorchful](https://modrinth.com/mod/scorchful) and [Frostiful](https://modrinth.com/mod/frostiful) from updating configs
