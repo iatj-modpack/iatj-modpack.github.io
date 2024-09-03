@@ -1,3 +1,10 @@
+### 1.3.6
+
+- Fixed multiple crafting issues
+
+- Removed Herobrine
+
+----
 ### 1.3.5
 
 - Removed [jeb_ Wool](https://modrinth.com/mod/jeb_-wool) mod due to crashing
