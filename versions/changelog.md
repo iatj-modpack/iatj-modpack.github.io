@@ -1,3 +1,10 @@
+### 1.3.7
+
+- Updated textures for flint tools, should be available for download separately [here](https://modrinth.com/resourcepack/slow-your-flint)
+
+- Removed Herobrine
+
+----
 ### 1.3.6
 
 - Fixed multiple crafting issues
