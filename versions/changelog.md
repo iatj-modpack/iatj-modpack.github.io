@@ -2,6 +2,8 @@
 
 - Updated textures for flint tools, should be available for download separately [here](https://modrinth.com/resourcepack/slow-your-flint)
 
+- *(1.3.7.1)* Flint tools resource pack has been approved!
+
 - Removed Herobrine
 
 ----
