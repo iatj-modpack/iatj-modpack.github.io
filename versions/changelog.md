@@ -2,6 +2,8 @@
 
 - Updated all mods
 
+- Removed old flint tools pack
+
 - Removed Herobrine
 
 ----
