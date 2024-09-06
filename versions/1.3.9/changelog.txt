@@ -1,0 +1,3 @@
+- Removed [SmartBlockPlacement](https://modrinth.com/mod/smartblockplacement)
+
+- Removed Herobrine

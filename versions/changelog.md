@@ -1,3 +1,10 @@
+### 1.3.9
+
+- Removed [SmartBlockPlacement](https://modrinth.com/mod/smartblockplacement)
+
+- Removed Herobrine
+
+----
 ### 1.3.8
 
 - Updated all mods
