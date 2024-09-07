@@ -23,7 +23,7 @@ var data = [getMostRecentFile('./versions')],
                 : b
         );
 
-console.log(highest.file);
+console.log(highest);
 
 fs.cpSync(path.join(__dirname,"versions",highest.file), path.join(__dirname,"versions","latest"), {recursive: true, force: true});
 
