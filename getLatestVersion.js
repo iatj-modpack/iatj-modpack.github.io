@@ -1,3 +1,6 @@
+const path = require('path');
+const fs = require('fs');
+
 fetch("https://raw.githubusercontent.com/iatj-modpack/iatj-modpack.github.io/main/meta.json", {
   method: "GET",
   headers: {
