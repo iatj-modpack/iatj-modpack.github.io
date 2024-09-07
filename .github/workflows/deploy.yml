@@ -32,18 +32,22 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v5            
 
       - name: Set "latest" directory to latest version
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node ./getLatestVersion.js
+
+      - name: Clean up
         uses: Amadevus/pwsh-script@v2
         with:
           # (https://superuser.com/questions/1508591/how-to-copy-an-item-which-is-in-the-newest-folder-in-one-directory-to-another)
           script: |
-            $newestfolder = gci -Directory ./versions | sort CreationTime -desc | select -f 1
-            copy $newestfolder ./versions/latest -Recurse
             del ./versions/latest/*.mrpack -Recurse -Force
-            copy ./web-files/** ./ -Recurse
             del ./web-files -Recurse -Force
+            del ./getLatestVersion.js -Recurse -Force
             $latestVNum = Get-Content ./versions/latest/vnum.txt
             (Get-Content ./index.html).Replace('LATEST_PACK_VERSION', $latestVNum) | Set-Content ./index.html
 
