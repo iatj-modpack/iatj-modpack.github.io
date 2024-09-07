@@ -1,3 +1,12 @@
+### 1.3.10
+
+- Removed [Puzzle](https://modrinth.com/mod/puzzle)
+
+- Disabled [Friends&Foes](https://modrinth.com/mod/friends-and-foes) update check
+
+- Removed Herobrine
+
+----
 ### 1.3.9
 
 - Removed [SmartBlockPlacement](https://modrinth.com/mod/smartblockplacement)
