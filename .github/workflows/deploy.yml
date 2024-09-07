@@ -46,8 +46,8 @@ jobs:
           # (https://superuser.com/questions/1508591/how-to-copy-an-item-which-is-in-the-newest-folder-in-one-directory-to-another)
           script: |
             del ./versions/latest/*.mrpack -Recurse -Force
-            del ./web-files -Recurse -Force
             copy ./web-files/** ./ -Recurse
+            del ./web-files -Recurse -Force
             del ./getLatestVersion.js -Recurse -Force
             $latestVNum = Get-Content ./versions/latest/vnum.txt
             (Get-Content ./index.html).Replace('LATEST_PACK_VERSION', $latestVNum) | Set-Content ./index.html
