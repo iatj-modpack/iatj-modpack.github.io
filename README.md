@@ -4,6 +4,10 @@
 
 (Includes a [Vanilla Tweaks Resource Pack](https://vanillatweaks.net/share#3qXD7K))
 
+***This modpack is optimized for controller support, with [Controlify](https://modrinth.com/mod/controlify) built-in!***
+
+***This pack should also be compatible with [Vivecraft](https://modrinth.com/mod/vivecraft), however it hasn't been thoroughly tested.***
+
 This is a modpack focused on improving Minecraft while still managing to feel oddly vanilla.
 From Eyes of Ender being a process to craft, to Diamond and Netherite tools not having impossible durability, this modpack is meant to be fun for single and multiplayer, making what I would say a complete game.
 
@@ -25,11 +29,11 @@ From Eyes of Ender being a process to craft, to Diamond and Netherite tools not 
 <details>
   <summary>Getting an Upgrade..?</summary>
   
-  Tool progression requires you to use your ingots to craft plates, so instead of using ingots to make that beautiful pickaxe, you'll need to craft 3 plates.<br>
+  Tool progression requires you to use your ingots to craft plates, so instead of using ingots to make that beautiful pickaxe, you'll need to craft 3 plates (Unlesss it's made of Copper or Flint).<br>
 
   Every crafting recipe that would normally require ingots, now requires plates, and that includes Netherite upgrades.<br>
 
-  So go on, get to mining bud, this is **Mine**craft after all!
+  So go on, get to mining, this is **Mine**craft after all!
 </details>
 
 
