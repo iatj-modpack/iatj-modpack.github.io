@@ -1,10 +1,8 @@
-### 1.3.11 - The "Barely a Performance Update" Update
+### 1.4.0 - The "Barely a Performance Update" Update
 
 - Added [Nvidium](https://modrinth.com/mod/nvidium)
 
 - Added [MC-258859](https://modrinth.com/mod/mc-258859)
-
-- Added [Exordium](https://modrinth.com/mod/exordium)
 
 - Added [Enchanter Fix](https://modrinth.com/mod/enchanter-fix)
 

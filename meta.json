@@ -183,13 +183,13 @@
       }
     },
     {
-      "id": "1.3.11",
-      "mpfile": "https://iatj-modpack.github.io/versions/1.3.11/iatj_modpack_file_1.3.11.mrpack",
+      "id": "1.4.0",
+      "mpfile": "https://iatj-modpack.github.io/versions/1.4.0/iatj_modpack_file_1.4.0.mrpack",
       "releasedAt": 1725772881921,
       "updateType": "minor",
       "promotions": {
         "downloads": {
-          "modrinth": "https://modrinth.com/modpack/iatj/version/1.3.11",
+          "modrinth": "https://modrinth.com/modpack/iatj/version/1.4.0",
           "generic": "https://iatj-modpack.github.io/changelog"
         }
       }
