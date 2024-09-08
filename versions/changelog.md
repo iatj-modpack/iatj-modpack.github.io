@@ -1,3 +1,18 @@
+### 1.3.11 - The "Barely a Performance Update" Update
+
+- Added [Nvidium](https://modrinth.com/mod/nvidium)
+
+- Added [MC-258859](https://modrinth.com/mod/mc-258859)
+
+- Added [Exordium](https://modrinth.com/mod/exordium)
+
+- Added [Enchanter Fix](https://modrinth.com/mod/enchanter-fix)
+
+- Added [Entity View Distance](https://modrinth.com/mod/entity-view-distance)
+
+- Removed Herobrine
+
+----
 ### 1.3.10
 
 - Removed [Puzzle](https://modrinth.com/mod/puzzle)
