@@ -1,3 +1,10 @@
+### 1.4.1
+
+- Updated as many things as possible (mods, resource packs, etc.)
+
+- Removed Herobrine
+
+----
 ### 1.4.0 - The "Barely a Performance Update" Update
 
 - Added [Nvidium](https://modrinth.com/mod/nvidium)
