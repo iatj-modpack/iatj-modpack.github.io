@@ -1,6 +1,6 @@
 ### 1.4.2
 
-- Replaced "Now THAT'LL Pack A Punch!" with "Wham!"
+- Replaced "[Now THAT'LL Pack A Punch!](https://modrinth.com/datapack/actual-mace)" with "[Wham!](https://modrinth.com/mod/wham-mace)"
 
 - Removed Herobrine
 
