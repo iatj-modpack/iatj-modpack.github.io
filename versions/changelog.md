@@ -1,3 +1,9 @@
+### 1.4.2
+
+- Replaced "Now THAT'LL Pack A Punch!" with "Wham!"
+
+- Removed Herobrine
+
 ### 1.4.1
 
 - Updated as many things as possible (mods, resource packs, etc.)
