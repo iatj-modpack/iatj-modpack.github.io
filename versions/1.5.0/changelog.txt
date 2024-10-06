@@ -1,0 +1,45 @@
+- Removed [Enhanced Endgame](https://modrinth.com/mod/enhanced-endgame)
+
+- Removed [Armorful](https://modrinth.com/mod/armorful)
+
+- Removed [Biome Spawn Point](https://modrinth.com/mod/biome-spawn-point)
+
+- Added [Wraith Waystones](https://modrinth.com/mod/fwaystones)
+
+- Added [Magic Mirror](https://modrinth.com/mod/qds-magic-mirror)
+
+- Added [Bundle Scroll](https://modrinth.com/mod/bundle-scroll)
+
+- Added [Best Bundles](https://modrinth.com/mod/best-bundles)
+
+- Added [BestBundleBundleScrollCompat](https://modrinth.com/mod/bestbundlebundlescrollcompat)
+
+- Added [World Play Time](https://modrinth.com/mod/world-play-time)
+
+- Added [Palladium](https://modrinth.com/mod/mpalladium)
+
+- Updated as many mods as possible
+
+- Days go by barely slower, nights go by barely faster
+
+- Default brightness is now 25% (I thought it was before???)
+
+- Default GUI scale is now 4
+
+- Fixed default settings showing fps counter (finally)
+
+- You can now sleep through the day
+
+- Adjusted Starter Kit
+
+- Guidebook added ([Source Code](https://github.com/kckarnige/iatw))
+
+- Dogs no longer make noise depending on your distance
+
+- Changed some things in the world creation UI
+
+- New cooler panorama
+
+- Herobrine bit will no longer be at the end of each changelog
+
+- There may be more changes that I've forgotten, this update has been a few weeks in the making
