@@ -1,3 +1,12 @@
+### 1.5.1
+
+- Removed [Hit Feedback](https://modrinth.com/mod/hit-feedback)
+
+- Removed [Torch Hit](https://modrinth.com/mod/torch-hit)
+
+- Please give me money
+
+----
 ### 1.5.0 - The Update That Changed Nothing
 
 - Removed [Enhanced Endgame](https://modrinth.com/mod/enhanced-endgame)
@@ -46,12 +55,14 @@
 
 - There may be more changes that I've forgotten, this update has been a few weeks in the making
 
+----
 ### 1.4.2
 
 - Replaced "[Now THAT'LL Pack A Punch!](https://modrinth.com/datapack/actual-mace)" with "[Wham!](https://modrinth.com/mod/wham-mace)"
 
 - Removed Herobrine
 
+----
 ### 1.4.1
 
 - Updated as many things as possible (mods, resource packs, etc.)

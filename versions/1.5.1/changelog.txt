@@ -1,0 +1,5 @@
+- Removed [Hit Feedback](https://modrinth.com/mod/hit-feedback)
+
+- Removed [Torch Hit](https://modrinth.com/mod/torch-hit)
+
+- Please give me money
