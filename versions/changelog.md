@@ -1,4 +1,4 @@
-### 1.5.1
+### 1.5.1 - Not Hot, Not Bloody, Not Noisy
 
 - Removed [Hit Feedback](https://modrinth.com/mod/hit-feedback)
 
