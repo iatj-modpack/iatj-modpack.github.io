@@ -72,7 +72,7 @@ From Eyes of Ender being a process to craft, to Diamond and Netherite tools not 
 > [!NOTE]
 > You can get the any version of the pack by visiting a link like so:
 > 
-> [`https://iatj-modpack.github.io/dl/1.2.1`](https://iatj-modpack.github.io/dl/1.3.2)
+> [`https://iatj-modpack.github.io/dl/1.2.1`](https://iatj-modpack.github.io/dl/1.2.1)
 > 
 > You can get the latest version by visting this link:
 > 
