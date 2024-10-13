@@ -43,7 +43,7 @@
 
 - Adjusted Starter Kit
 
-- Guidebook added ([Source Code](https://github.com/kckarnige/iatw))
+- Guidebook added ([Source Code](https://github.com/iatj-modpack/iatw))
 
 - Dogs no longer make noise depending on your distance
 
