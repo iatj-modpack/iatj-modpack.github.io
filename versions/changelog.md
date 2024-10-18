@@ -1,3 +1,10 @@
+### 1.5.2 - "I Can See!!!"
+
+- [Vivecraft](https://modrinth.com/mod/vivecraft) is now built-in
+
+- Updated guide book visuals [(Source Code)](https://github.com/iatj-modpack/iatw)
+
+----
 ### 1.5.1 - Not Hot, Not Bloody, Not Noisy
 
 - Removed [Hit Feedback](https://modrinth.com/mod/hit-feedback)

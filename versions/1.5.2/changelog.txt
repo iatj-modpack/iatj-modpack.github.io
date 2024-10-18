@@ -1,0 +1,3 @@
+- [Vivecraft](https://modrinth.com/mod/vivecraft) is now built-in
+
+- Updated guide book visuals [(Source Code)](https://github.com/iatj-modpack/iatw)

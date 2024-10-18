@@ -232,12 +232,24 @@
     },
     {
       "id": "1.5.1",
-      "mpfile": "https://iatj-modpack.github.io/versions/1.5.1/iatj_modpack_file_1.5.0.mrpack",
-      "releasedAt": 1728191863567,
+      "mpfile": "https://iatj-modpack.github.io/versions/1.5.1/iatj_modpack_file_1.5.1.mrpack",
+      "releasedAt": 1728317202000,
       "updateType": "minor",
       "promotions": {
         "downloads": {
           "modrinth": "https://modrinth.com/modpack/iatj/version/1.5.1",
+          "generic": "https://iatj-modpack.github.io/changelog"
+        }
+      }
+    },
+    {
+      "id": "1.5.2",
+      "mpfile": "https://iatj-modpack.github.io/versions/1.5.2/iatj_modpack_file_1.5.2.mrpack",
+      "releasedAt": 1729214190430,
+      "updateType": "minor",
+      "promotions": {
+        "downloads": {
+          "modrinth": "https://modrinth.com/modpack/iatj/version/1.5.2",
           "generic": "https://iatj-modpack.github.io/changelog"
         }
       }
