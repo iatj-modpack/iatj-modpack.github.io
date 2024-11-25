@@ -1,0 +1,5 @@
+- Updated mods, moved to Sodium 0.6
+
+- Moved VR settings button in options menu
+
+- Removed [Nvidium](https://modrinth.com/mod/nvidium) and [FixBookGui](https://modrinth.com/mod/fixbookgui)

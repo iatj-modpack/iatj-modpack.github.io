@@ -253,6 +253,18 @@
           "generic": "https://iatj-modpack.github.io/changelog"
         }
       }
+    },
+    {
+      "id": "1.5.3",
+      "mpfile": "https://iatj-modpack.github.io/versions/1.5.3/iatj_modpack_file_1.5.3.mrpack",
+      "releasedAt": 1729214190430,
+      "updateType": "minor",
+      "promotions": {
+        "downloads": {
+          "modrinth": "https://modrinth.com/modpack/iatj/version/1.5.3",
+          "generic": "https://iatj-modpack.github.io/changelog"
+        }
+      }
     }
   ]
 }

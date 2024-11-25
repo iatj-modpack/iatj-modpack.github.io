@@ -1,3 +1,11 @@
+### 1.5.3 - Squishy Squashy!
+
+- Updated mods, moved to Sodium 0.6
+
+- Moved VR settings button in options menu
+
+- Removed [Nvidium](https://modrinth.com/mod/nvidium) and [FixBookGui](https://modrinth.com/mod/fixbookgui)
+
 ### 1.5.2 - "I Can See!!!"
 
 - [Vivecraft](https://modrinth.com/mod/vivecraft) is now built-in
