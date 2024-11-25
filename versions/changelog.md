@@ -1,3 +1,8 @@
+### 1.5.4 - "There's a million things I haven't done"
+
+- Replaced [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options) with [Xander's Sodium Options](https://modrinth.com/mod/xanders-sodium-options)
+
+----
 ### 1.5.3 - Squishy Squashy!
 
 - Updated mods, moved to Sodium 0.6
@@ -6,6 +11,7 @@
 
 - Removed [Nvidium](https://modrinth.com/mod/nvidium) and [FixBookGui](https://modrinth.com/mod/fixbookgui)
 
+----
 ### 1.5.2 - "I Can See!!!"
 
 - [Vivecraft](https://modrinth.com/mod/vivecraft) is now built-in

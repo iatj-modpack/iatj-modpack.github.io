@@ -1,0 +1,1 @@
+- Replaced [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options) with [Xander's Sodium Options](https://modrinth.com/mod/xanders-sodium-options)
